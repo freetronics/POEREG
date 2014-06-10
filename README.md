@@ -1,31 +1,34 @@
 Freetronics Power-over-Ethernet 802.3af Regulator
-==================================================
-Copyright 2010 Freetronics Pty Ltd  
-Freetronics site:  <www.freetronics.com>  
-Freetronics email: <info@freetronics.com>  
+=================================================
+Copyright 2010-2013 Freetronics Pty Ltd  
+Freetronics site:  www.freetronics.com  
+Freetronics email: info@freetronics.com  
 
 Module to regulate power supplied on Power-over-Ethernet connection
-down to a maximum of 7.5Vdc for supply to the on-board voltage regulator
-in an Arduino Duemilanove, Freetronics TwentyTen, or other compatible
-board using the Freetronics Ethernet Shield.
+down to 7.5Vdc for supply to the on-board voltage regulator in an
+Arduino Uno or other compatible board using the Freetronics Ethernet
+Shield, or boards with onboard Ethernet such as the Freetronics
+EtherTen, EtherMega, and EtherDue.
+
+The output can optionally be switched to 12V which can be useful for
+supplying power to external loads such as 12V relays.
 
 Features:
 
  * Adds 802.3af-compliant Power-over-Ethernet "PD" (powered device)
-   support to the Freetronics Ethernet shield.
+   support to the Freetronics Ethernet shield and other Freetronics
+   boards.
  * Input voltage range 36-57Vdc (nominal 48Vdc for 802.3af PoE)
- * Output voltage limited to 7.5V and fed to Arduino on-board voltage
+ * Output voltage regulated to 7.5V and fed to Arduino on-board voltage
    regulator via Ethernet shield for further regulation down to 5V.
- * Plugs directly onto Freetronics Ethernet Shield.
+ * Plugs directly onto Freetronics Ethernet Shield and other
+   Freetronics boards.
  * "Power on" LED.
 
 
 More information is available at:
 
   http://www.freetronics.com/poe-regulator-8023af
-
-The "docs" folder within this repository includes a handy copy of the
-schematic in PDF format and image(s) of the pcb.
 
 
 INSTALLATION
