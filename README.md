@@ -5,7 +5,7 @@ Freetronics site:  www.freetronics.com
 Freetronics email: info@freetronics.com  
 
 Module to regulate power supplied on Power-over-Ethernet connection
-down to 7.5Vdc for supply to the on-board voltage regulator in an
+down to 10Vdc for supply to the on-board voltage regulator in an
 Arduino Uno or other compatible board using the Freetronics Ethernet
 Shield, or boards with onboard Ethernet such as the Freetronics
 EtherTen, EtherMega, and EtherDue.
@@ -19,7 +19,7 @@ Features:
    support to the Freetronics Ethernet shield and other Freetronics
    boards.
  * Input voltage range 36-57Vdc (nominal 48Vdc for 802.3af PoE)
- * Output voltage regulated to 7.5V and fed to Arduino on-board voltage
+ * Output voltage regulated to 10V and fed to Arduino on-board voltage
    regulator via Ethernet shield for further regulation down to 5V.
  * Plugs directly onto Freetronics Ethernet Shield and other
    Freetronics boards.
@@ -28,7 +28,7 @@ Features:
 
 More information is available at:
 
-  http://www.freetronics.com/poe-regulator-8023af
+  http://tron.cc/poereg
 
 
 INSTALLATION
