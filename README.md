@@ -1,8 +1,7 @@
 Freetronics Power-over-Ethernet 802.3af Regulator
 =================================================
-Copyright 2010-2013 Freetronics Pty Ltd  
-Freetronics site:  www.freetronics.com  
-Freetronics email: info@freetronics.com  
+Copyright 2010-2013 Freetronics Pty Ltd www.freetronics.com  
+Copyright 2018 SuperHouse Automation Pty Ltd www.superhouse.tv--
 
 Module to regulate power supplied on Power-over-Ethernet connection
 down to 10Vdc for supply to the on-board voltage regulator in an
@@ -28,7 +27,7 @@ Features:
 
 More information is available at:
 
-  http://tron.cc/poereg
+  http://www.superhouse.tv/poereg
 
 
 INSTALLATION
@@ -37,7 +36,7 @@ The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
-navigate to Projects -> eagle -> PoERegulator8023af.
+navigate to the project.
 
 
 DISTRIBUTION
