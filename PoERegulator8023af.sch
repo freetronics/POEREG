@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7838,10 +7839,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="12.7" size="3.048" layer="94">Freetronics Power-over-Ethernet Regulator</text>
-<text x="88.9" y="6.858" size="1.778" layer="94">V2.0 (2014-06-11)</text>
-<text x="7.366" y="6.858" size="1.778" layer="94">www.freetronics.com</text>
-<text x="40.64" y="6.858" size="1.778" layer="94">SKU: POEREG</text>
+<text x="7.62" y="12.7" size="3.048" layer="94">Power-over-Ethernet Regulator</text>
+<text x="88.9" y="6.858" size="1.778" layer="94">V2.1 (2018-01-10)</text>
+<text x="7.366" y="6.858" size="1.778" layer="94">SKU: POEREG</text>
+<text x="40.64" y="6.858" size="1.778" layer="94">www.superhouse.tv/poereg</text>
 <text x="5.08" y="67.818" size="1.778" layer="94">To VIN</text>
 <text x="8.89" y="65.278" size="1.778" layer="94">IN+</text>
 <text x="8.89" y="62.738" size="1.778" layer="94">IN-</text>

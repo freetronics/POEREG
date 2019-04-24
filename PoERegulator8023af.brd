@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,13 +24,13 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -142,14 +143,6 @@
 <wire x1="30.48" y1="31.75" x2="29.21" y2="33.02" width="0" layer="20" curve="89.990978"/>
 <wire x1="29.21" y1="33.02" x2="8.89" y2="33.02" width="0" layer="20"/>
 <wire x1="8.89" y1="33.02" x2="7.62" y2="31.75" width="0" layer="20" curve="73.744127"/>
-<wire x1="6.985" y1="15.621" x2="6.985" y2="4.826" width="0.3048" layer="22"/>
-<wire x1="9.525" y1="4.826" x2="9.525" y2="15.621" width="0.3048" layer="22"/>
-<wire x1="9.525" y1="15.621" x2="8.509" y2="16.891" width="0.3048" layer="22" curve="89.981957"/>
-<wire x1="8.509" y1="16.891" x2="8.001" y2="16.891" width="0.3048" layer="22"/>
-<wire x1="8.001" y1="16.891" x2="6.985" y2="15.621" width="0.3048" layer="22" curve="89.981957"/>
-<wire x1="6.985" y1="4.826" x2="8.001" y2="3.556" width="0.3048" layer="22" curve="89.981957"/>
-<wire x1="8.001" y1="3.556" x2="8.509" y2="3.556" width="0.3048" layer="22"/>
-<wire x1="8.509" y1="3.556" x2="9.525" y2="4.826" width="0.3048" layer="22" curve="89.981957"/>
 <wire x1="7.62" y1="31.75" x2="7.62" y2="22.352" width="0" layer="20"/>
 <wire x1="7.62" y1="22.352" x2="5.08" y2="19.812" width="0" layer="20" curve="-90"/>
 <wire x1="5.08" y1="19.812" x2="1.27" y2="19.812" width="0" layer="20"/>
@@ -179,14 +172,6 @@
 <wire x1="1.27" y1="16.002" x2="0.762" y2="16.51" width="0.3048" layer="21" curve="-90"/>
 <wire x1="0.762" y1="16.51" x2="0.762" y2="18.542" width="0.3048" layer="21"/>
 <wire x1="0.762" y1="18.542" x2="1.27" y2="19.05" width="0.3048" layer="21" curve="-90"/>
-<wire x1="9.017" y1="32.512" x2="16.51" y2="32.512" width="0.254" layer="21"/>
-<wire x1="16.51" y1="30.734" x2="9.017" y2="30.734" width="0.254" layer="21"/>
-<wire x1="9.017" y1="30.734" x2="8.001" y2="31.496" width="0.254" layer="21" curve="-89.988722"/>
-<wire x1="8.001" y1="31.496" x2="8.001" y2="31.75" width="0.254" layer="21"/>
-<wire x1="8.001" y1="31.75" x2="9.017" y2="32.512" width="0.254" layer="21" curve="-89.977447"/>
-<wire x1="16.51" y1="32.512" x2="17.526" y2="31.75" width="0.254" layer="21" curve="-89.977447"/>
-<wire x1="17.526" y1="31.75" x2="17.526" y2="31.496" width="0.254" layer="21"/>
-<wire x1="17.526" y1="31.496" x2="16.51" y2="30.734" width="0.254" layer="21" curve="-89.977447"/>
 <wire x1="4.572" y1="17.907" x2="2.794" y2="16.129" width="0.254" layer="21"/>
 <wire x1="2.794" y1="16.129" x2="2.794" y2="11.303" width="0.254" layer="21"/>
 <wire x1="2.794" y1="11.303" x2="4.826" y2="11.303" width="0.254" layer="21"/>
@@ -197,18 +182,15 @@
 <wire x1="4.572" y1="17.907" x2="5.08" y2="17.907" width="0.254" layer="21"/>
 <wire x1="4.318" y1="18.542" x2="4.826" y2="18.542" width="0.254" layer="21"/>
 <wire x1="4.572" y1="18.796" x2="4.572" y2="18.288" width="0.254" layer="21"/>
-<text x="11.176" y="27.432" size="1.016" layer="22" font="vector" ratio="16" rot="MR270">(c) 2013 Freetronics Pty Ltd</text>
-<text x="6.604" y="16.51" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">www.freetronics.com</text>
-<text x="8.9408" y="16.637" size="1.4224" layer="22" font="vector" ratio="17" rot="MR270">freetronics</text>
+<text x="21.59" y="30.734" size="1.1176" layer="22" font="vector" ratio="16" rot="MR270">(c) 2018 SuperHouse Automation</text>
 <text x="2.286" y="0.1778" size="1.016" layer="21" ratio="15" rot="R90">GND</text>
 <text x="2.286" y="7.4422" size="1.016" layer="21" ratio="15" rot="R90">10V</text>
 <text x="2.54" y="3.2766" size="1.4224" layer="21" ratio="18" rot="R90">- +</text>
 <text x="6.477" y="0.762" size="1.143" layer="21" ratio="18" rot="R90">IN: 802.3af</text>
 <text x="1.3208" y="3.8862" size="1.016" layer="21" ratio="18" rot="R90">PoE</text>
 <text x="7.874" y="0.762" size="1.016" layer="21" ratio="18" rot="R90">OUT: 10/12V</text>
-<text x="14.605" y="18.288" size="1.27" layer="22" ratio="18" rot="MR270">tron.cc/poereg</text>
-<text x="12.7" y="21.082" size="1.016" layer="22" font="vector" ratio="16" rot="MR270">SKU: POEREG     v2.0</text>
-<text x="8.3058" y="31.1658" size="1.016" layer="21" font="vector" ratio="17">freetronics</text>
+<text x="26.035" y="22.098" size="1.524" layer="22" ratio="18" rot="MR270">superhouse.tv/poereg</text>
+<text x="23.622" y="21.082" size="1.1176" layer="22" font="vector" ratio="16" rot="MR270">SKU: POEREG     v2.1</text>
 <text x="3.937" y="17.653" size="1.016" layer="21" ratio="18" rot="R270">+</text>
 <text x="3.937" y="12.319" size="1.016" layer="21" ratio="18" rot="R270">-</text>
 <text x="3.302" y="14.732" size="0.8128" layer="21" ratio="18">220uF</text>
@@ -228,7 +210,7 @@
 <rectangle x1="8.128" y1="22.098" x2="12.192" y2="24.384" layer="1"/>
 <rectangle x1="8.128" y1="28.956" x2="12.192" y2="32.512" layer="1"/>
 <rectangle x1="8.128" y1="26.416" x2="12.192" y2="26.924" layer="1"/>
-<text x="20.4978" y="0.9398" size="0.8128" layer="21" font="vector" ratio="17">tron.cc/poereg</text>
+<text x="7.2898" y="33.9598" size="0.8128" layer="21" font="vector" ratio="17">superhouse.tv/poereg</text>
 <text x="9.652" y="1.524" size="0.8128" layer="21" ratio="18">DEFAULT:</text>
 <text x="9.652" y="0.508" size="0.8128" layer="21" ratio="18">10Vdc OUT</text>
 <text x="20.574" y="31.242" size="0.8636" layer="21" ratio="18">PoE Regulator</text>
@@ -545,16 +527,20 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
