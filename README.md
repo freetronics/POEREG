@@ -1,7 +1,5 @@
-Freetronics Power-over-Ethernet 802.3af Regulator
-=================================================
-Copyright 2010-2013 Freetronics Pty Ltd www.freetronics.com  
-Copyright 2018 SuperHouse Automation Pty Ltd www.superhouse.tv--
+Power-over-Ethernet 802.3af Regulator
+=====================================
 
 Module to regulate power supplied on Power-over-Ethernet connection
 down to 10Vdc for supply to the on-board voltage regulator in an
@@ -25,28 +23,31 @@ Features:
  * "Power on" LED.
 
 
-More information is available at:
+More information at:
 
-  http://www.superhouse.tv/poereg
-
-
-INSTALLATION
-------------
-The design is saved as an EAGLE project. EAGLE PCB design software is
-available from www.cadsoftusa.com free for non-commercial use. To use
-this project download it and place the directory containing these files
-into the "eagle" directory on your computer. Then open EAGLE and
-navigate to the project.
+  http://www.freetronics.com.au/poereg
 
 
-DISTRIBUTION
-------------
-The specific terms of distribution of this project are governed by the
-license referenced below.
+Hardware
+--------
+The "Hardware" directory contains the PCB design as an EAGLE project.
+EAGLE PCB design software is available from Autodesk free for
+non-commercial use.
 
 
-LICENSE
+Credits
 -------
-Licensed under the TAPR Open Hardware License (www.tapr.org/OHL).
-The "license" folder within this repository also contains a copy of
-this license in plain text format.
+  * Jonathan Oxer <jon@oxer.com.au>
+
+
+License
+-------
+Copyright 2010-2021 Freetronics Pty Ltd www.freetronics.com
+
+The hardware portion of this project is licensed under the TAPR Open
+Hardware License (www.tapr.org/OHL). The "license" folder within this
+repository also contains a copy of this license in plain text format.
+
+The software portion of this project is licensed under the Simplified
+BSD License. The "licence" folder within this project contains a
+copy of this license in plain text format.
